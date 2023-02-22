@@ -1,0 +1,85 @@
+/* selector {property: value;} */
+
+body {
+    background-color: rgb(255, 228, 196);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  /*  background-color: rgb(224, 204, 180); */
+}
+
+/* * {border: 2px solid black;} */
+
+h1 {
+    padding: 30px;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+nav li {
+    border: 3px solid black;
+    display: inline;
+    padding: 5px;
+    margin: auto;
+    border-style: double;
+}
+
+#first {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: 7px solid black;
+    ;   
+}
+
+#firsttext {
+    text-align: center;
+    font-size: larger;
+    padding: 2%;
+}
+
+#recban {
+    text-align: center;
+}
+
+article img {
+    width: 400px;
+    padding: none;
+    float: none;
+    display: inline-block;
+    border: 2px solid black;
+    
+}
+
+#recipe {
+    float: top;
+    vertical-align: right;
+}
+
+.group img,
+.group section {
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(199, 142, 72);
+    border: 3px double black;
+}
