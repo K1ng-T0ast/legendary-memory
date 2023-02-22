@@ -3,6 +3,9 @@
 body {
     background-color: rgb(255, 228, 196);
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/line.jpg);
+    background-size: contain;
+
 }
 
 section {
@@ -34,6 +37,7 @@ a:link {
 
 nav li {
     border: 3px solid black;
+    border-radius: 25px;
     display: inline;
     padding: 5px;
     margin: auto;
@@ -46,7 +50,6 @@ nav li {
     margin-right: auto;
     width: 80%;
     border: 7px solid black;
-    ;   
 }
 
 #firsttext {
