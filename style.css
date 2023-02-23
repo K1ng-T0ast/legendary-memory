@@ -3,8 +3,8 @@
 body {
     background-color: rgb(255, 228, 196);
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(images/line.jpg);
-    background-size: contain;
+    background-image: url(images/egg.jpg);
+    background-size: absolute;
 
 }
 
@@ -76,14 +76,14 @@ article img {
     vertical-align: right;
 }
 
-.group img,
+/* .group img,
 .group section {
     display: inline-block;
-}
+} */
 
 footer {
     text-align: center;
-    background-color: rgb(199, 142, 72);
+    background-color: rgb(244, 233, 219);
     border: 3px double black;
 }
 
