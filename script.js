@@ -30,10 +30,13 @@ function likesFood() {
     } else if (foodChoice == 'no') {
         let promptChoice = prompt("Are you sure?");
         if (promptChoice == 'yes') {
-            alert("No judgement here!...well, perhaps a tablespoon of judgement...")
+            prompt("Iron Chef Morimoto says: Try Again..")
+        }
+        if (promptChoice == 'yes') {
+            alert("The Iron Chefs are conferring upon your decision, prepare thy apron..")
         }
         else if (promptChoice == 'no') {
-            alert("You have chosen wisely, young grasshoppa.")
+            alert("You have chosen wisely, grasshoppa..");
         }
     } else {
         alert("Is nihilism a cuisine?");
@@ -42,7 +45,7 @@ function likesFood() {
 }
 
 function okay() {
-    if (confirm("Should I tell Gordon Ramsey what you told me?")) {
+    if (confirm("Should I tell Gordon Ramsey about this?")) {
         document.write("I told him, he says he believes in you and to.. ahem (his words not mine)... GET BACK TO WORK!");
     } else {
         document.write("OK, I won't, but you're missing out on a phone call from a very stern but fair British man.");
