@@ -13,7 +13,7 @@
 
 // alert("Hello " + userName");
 
-let foodChoice = prompt("Tired of eating fast food? Type yes or no");
+let foodChoice = prompt("Tired of eating fast food? Type YES or NO");
 
 if(foodChoice == 'yes'){
     document.write("Welcome! You're in good oven mitt hands!");
@@ -23,4 +23,4 @@ if(foodChoice == 'yes'){
         document.write("Is nihilism a cuisine?")
      };
 
-console.log("foodChoice");
+console.log();
