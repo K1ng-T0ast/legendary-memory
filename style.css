@@ -1,7 +1,7 @@
 /* selector {property: value;} */
 
 body {
-    background-color: rgb(255, 228, 196);
+    background-color: rgb(250, 224, 192);
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(images/egg.jpg);
     background-size: absolute;
@@ -76,10 +76,10 @@ article img {
     vertical-align: right;
 }
 
-/* .group img,
+.group img,
 .group section {
     display: inline-block;
-} */
+}
 
 footer {
     text-align: center;
